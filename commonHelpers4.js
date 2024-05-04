@@ -1,0 +1,2 @@
+import"./assets/modulepreload-polyfill-3cfb730f.js";const a=()=>new Promise(t=>{setTimeout(()=>{console.log(1),t(1)},1e3)}),e=()=>new Promise(t=>{setTimeout(()=>{console.log(2),t(2)},1e3)}),s=()=>new Promise(t=>{setTimeout(()=>{console.log(3),t(3)},1e3)}),n=()=>new Promise(t=>{setTimeout(()=>{console.log(4),t(4)},1e3)}),c=[a(),e(),s(),n()];Promise.all(c).then(t=>{console.log(t)}).catch(t=>{console.log(t)});
+//# sourceMappingURL=commonHelpers4.js.map
